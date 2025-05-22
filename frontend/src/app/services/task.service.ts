@@ -13,7 +13,9 @@ export interface Task {
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5000/api/tasks';
+  private apiUrl = 'https://doriane-task.onrender.com';
+
+ // private apiUrl = 'http://localhost:5000/api/tasks';
 
   constructor(private http: HttpClient) {}
 
