@@ -13,7 +13,7 @@ export interface Task {
   providedIn: 'root'
 })
 export class TaskService {
-  private apiUrl = 'https://doriane-task.onrender.com';
+  private apiUrl = 'https://doriane-task.onrender.com/api/tasks';
 
  // private apiUrl = 'http://localhost:5000/api/tasks';
 
